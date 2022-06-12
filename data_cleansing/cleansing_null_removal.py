@@ -23,9 +23,9 @@ outliers=df.isna().sum()[df.isna().sum()>threshold]
 
 outliers
 
-del df['bathroom']
+del df['delete colum which is highly empty']
 
-df.pop('age')
+df.pop('delete colum which is highly empty')
 
 df.isna().sum().plot(kind='hist')
 
